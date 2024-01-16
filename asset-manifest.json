@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jbmtv/static/css/main.55e23760.css",
+    "main.js": "/jbmtv/static/js/main.9f1f822e.js",
+    "index.html": "/jbmtv/index.html",
+    "main.55e23760.css.map": "/jbmtv/static/css/main.55e23760.css.map",
+    "main.9f1f822e.js.map": "/jbmtv/static/js/main.9f1f822e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55e23760.css",
+    "static/js/main.9f1f822e.js"
+  ]
+}
