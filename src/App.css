@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin: 5;
   padding: 0;
 }
 
@@ -64,32 +64,6 @@ button:hover {
   background-color: #424769;
 }
 
-.channel-section.collapsed .channel-list {
-  display: none;
-}
-
-.channel-section .search-bar {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 5px;
-}
-
-.channel-section input {
-  margin-right: 10px;
-}
-
-.light-mode .channel-section input {
-  background-color: #eaeccc;
-  border: 1px solid #eaeccc;
-}
-
-.dark-mode .channel-section input {
-  background-color: #424769;
-  border: 1px solid #424769;
-}
 
 .channel-list {
   display: flex;
@@ -97,20 +71,7 @@ button:hover {
   gap: 20px;
 }
 
-.no-results-wrapper {
-  text-align: center;
-}
 
-.no-results {
-  color: #dbcc95;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  cursor: pointer;
-}
-
-.dark-mode .no-results {
-  color: #7077a1;
-}
 
 .channel-card {
   padding: 10px;
@@ -119,6 +80,7 @@ button:hover {
   border-radius: 5%;
   cursor: pointer;
   position: relative;
+  width: 100px;
 }
 
 .dark-mode .channel-card {
