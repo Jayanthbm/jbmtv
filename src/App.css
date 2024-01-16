@@ -8,14 +8,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #C3E2C2;
+  background-color: #c3e2c2;
   color: #000;
   text-align: center;
   padding: 10px;
 }
 
 .dark-mode header {
-  background-color: #2D3250;
+  background-color: #2d3250;
   color: #fff;
 }
 
@@ -28,7 +28,7 @@ h1 {
 }
 
 button {
-  background-color: #CD8D7A;
+  background-color: #cd8d7a;
   color: white;
   padding: 8px 16px;
   border: none;
@@ -37,15 +37,15 @@ button {
 }
 
 button:hover {
-  background-color: #CD8D7A;
+  background-color: #cd8d7a;
 }
 
 .dark-mode button {
-  background-color: #F6B17A;
+  background-color: #f6b17a;
 }
 
 .dark-mode button:hover {
-  background-color: #F6B17A;
+  background-color: #f6b17a;
 }
 
 .channel-section {
@@ -54,7 +54,7 @@ button:hover {
 
 .channel-section h2 {
   cursor: pointer;
-  background-color: #EAECCC;
+  background-color: #eaeccc;
   padding: 10px;
   margin-top: 5px;
   margin-bottom: 2px;
@@ -82,33 +82,34 @@ button:hover {
 }
 
 .light-mode .channel-section input {
-  background-color: #EAECCC;
-  border: 1px solid #EAECCC;
+  background-color: #eaeccc;
+  border: 1px solid #eaeccc;
 }
 
 .dark-mode .channel-section input {
   background-color: #424769;
   border: 1px solid #424769;
 }
+
 .channel-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-.no-results-wrapper{
+.no-results-wrapper {
   text-align: center;
 }
 
 .no-results {
-  color: #DBCC95;
+  color: #dbcc95;
   margin-top: 5px;
   margin-bottom: 5px;
   cursor: pointer;
 }
 
 .dark-mode .no-results {
-  color: #7077A1;
+  color: #7077a1;
 }
 
 .channel-card {
@@ -117,13 +118,35 @@ button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5%;
   cursor: pointer;
+  position: relative;
 }
 
 .dark-mode .channel-card {
-  border: 1px solid #EAECCC
+  border: 1px solid #eaeccc;
 }
+
 .light-mode .channel-card {
-  border: 1px solid #EAECCC;
+  border: 1px solid #eaeccc;
+}
+
+.shortcut-display {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dark-mode .shortcut-display {
+  background-color: #424769;
+  color: #fff;
+}
+
+.light-mode .shortcut-display {
+  background-color: #eaeccc;
+  color: #000;
 }
 
 .channel-card img {
@@ -134,7 +157,6 @@ button:hover {
 
 .channel-card:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-
 }
 
 /* Light Mode */
