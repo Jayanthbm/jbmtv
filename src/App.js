@@ -12,7 +12,7 @@ const shortKeys = {
   8: "http://localhost:5001/play/204",
   9: "https://livesportsclub.me/hls/tata/play.php?id=246",
   Q: "http://localhost:5001/play/757",
-  W: "http://localhost:5001/play/1632",
+  W: "http://localhost:5001/play/1362",
   E: "https://livesportsclub.me/hls/tata/play.php?id=467",
   R: "http://localhost:5001/play/901",
   T: "http://localhost:5001/play/744",
@@ -57,7 +57,7 @@ const kannadaChannels = [
   {
     name: "Zee Kannada",
     image: "http://localhost:5001/jtvimage/Zee_Kannada_HD.png",
-    url: "http://localhost:5001/play/1632",
+    url: "http://localhost:5001/play/1362",
     shortCut: "W",
   },
   {
